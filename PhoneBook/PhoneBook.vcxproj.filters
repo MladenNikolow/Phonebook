@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Tables">
+      <UniqueIdentifier>{6e8705fc-4aa3-49d1-8f45-8a767cd938a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Accessors">
+      <UniqueIdentifier>{c5a31bf9-b666-4f5f-9231-8264849f56cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tables">
+      <UniqueIdentifier>{f30b1582-bd09-47c1-b6e9-1ab32ed4ef3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Views">
+      <UniqueIdentifier>{6d4043f9-865b-45f3-a257-d8eeb1c6e0b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Documents">
+      <UniqueIdentifier>{fff2d22b-eff8-4adc-a5cb-4bc6b85e7d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views">
+      <UniqueIdentifier>{49c7e13b-eb5d-42f4-b874-0bd9b9c6ea24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Documents">
+      <UniqueIdentifier>{5a0d83bb-8fbc-4f2e-8198-9a669e45b8a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dialogs">
+      <UniqueIdentifier>{6d65c543-d867-4985-a128-2647572f253f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dialogs">
+      <UniqueIdentifier>{78dd5afd-6499-42d2-8060-54178ff093cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Data %28Business Logic%29">
+      <UniqueIdentifier>{440d049c-a6fb-4a9f-983f-c6fe06941846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data %28Business Logic%29">
+      <UniqueIdentifier>{b9f1fc46-6e5b-48d1-b228-f43d666cb5d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLCommandUtilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TypedAutoPtrArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContextMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifyRecordUtilites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTable.h">
+      <Filter>Header Files\Tables</Filter>
+    </ClInclude>
+    <ClInclude Include="CitiesTable.h">
+      <Filter>Header Files\Tables</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonsTable.h">
+      <Filter>Header Files\Tables</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneTypesTable.h">
+      <Filter>Header Files\Tables</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonsAccessor.h">
+      <Filter>Header Files\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneNumbersAccessor.h">
+      <Filter>Header Files\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneTypesAccessor.h">
+      <Filter>Header Files\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneNumbersTable.h">
+      <Filter>Header Files\Tables</Filter>
+    </ClInclude>
+    <ClInclude Include="AlphabeticEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CitiesAccessor.h">
+      <Filter>Header Files\Accessors</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonsView.h">
+      <Filter>Header Files\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="CitiesView.h">
+      <Filter>Header Files\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="CitiesDocument.h">
+      <Filter>Header Files\Documents</Filter>
+    </ClInclude>
+    <ClInclude Include="CitiesDlg.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="Contact.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonsData.h">
+      <Filter>Header Files\Data %28Business Logic%29</Filter>
+    </ClInclude>
+    <ClInclude Include="CitiesData.h">
+      <Filter>Header Files\Data %28Business Logic%29</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneTypesData.h">
+      <Filter>Header Files\Data %28Business Logic%29</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneTypesDocument.h">
+      <Filter>Header Files\Documents</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonsDocument.h">
+      <Filter>Header Files\Documents</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneTypesView.h">
+      <Filter>Header Files\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneBookApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneNumbersDlg.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonsDlg.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneTypesDlg.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgUtilities.h">
+      <Filter>Header Files\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseView.h">
+      <Filter>Header Files\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDocument.h">
+      <Filter>Header Files\Documents</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewUtilities.h">
+      <Filter>Header Files\Views</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ContextMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CitiesTable.cpp">
+      <Filter>Source Files\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneNumbersTable.cpp">
+      <Filter>Source Files\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneTypesTable.cpp">
+      <Filter>Source Files\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonsTable.cpp">
+      <Filter>Source Files\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphabeticEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CitiesView.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonsView.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="CitiesDocument.cpp">
+      <Filter>Source Files\Documents</Filter>
+    </ClCompile>
+    <ClCompile Include="CitiesDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Contact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CitiesData.cpp">
+      <Filter>Source Files\Data %28Business Logic%29</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonsData.cpp">
+      <Filter>Source Files\Data %28Business Logic%29</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneTypesData.cpp">
+      <Filter>Source Files\Data %28Business Logic%29</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneTypesDocument.cpp">
+      <Filter>Source Files\Documents</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonsDocument.cpp">
+      <Filter>Source Files\Documents</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneTypesView.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneBookApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneNumbersDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonsDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneTypesDlg.cpp">
+      <Filter>Source Files\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PhoneBook.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\PhoneBook.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\PhoneBookDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PhoneBook.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
